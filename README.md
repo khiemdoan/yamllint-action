@@ -9,7 +9,7 @@ This action is derived from [ibiqlik/action-yamllint@v3](https://github.com/ibiq
 Simple as:
 
 ```yaml
-- uses: khiemdoan/yamllint-action@v1
+- uses: khiemdoan/yaml-linting-action@v1
 ```
 
 ### Optional input parameters
@@ -44,7 +44,7 @@ jobs:
       - uses: actions/checkout@v6
 
       - name: yaml-lint
-        uses: khiemdoan/yamllint-action@v1
+        uses: khiemdoan/yaml-linting-action@v1
         with:
           files: .
 ```
