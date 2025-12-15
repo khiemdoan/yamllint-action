@@ -1,5 +1,5 @@
 ---
-name: 'YAML Lint'
+name: 'YAML Linting'
 description: 'Validate YAML syntax using yamllint'
 author: 'Khiem Doan'
 
